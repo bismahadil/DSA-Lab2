@@ -70,12 +70,7 @@ int main() {
     return 0;
 }
 
-// ---- Implementation (written after the tests) ----
+// ---- Implementation (STUB - deliberately incomplete for TDD demonstration) ----
 bool isSorted(const int* arr, const int size) {
-    for (int i = 1; i < size; i++) {
-        if (arr[i] < arr[i - 1]) {
-            return false;
-        }
-    }
-    return true;
+    return false; // placeholder - not yet implemented
 }
